@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		C1D453DF1AEA396E001C7111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D453DE1AEA396E001C7111 /* main.m */; };
 		C1D453E21AEA396E001C7111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D453E11AEA396E001C7111 /* AppDelegate.m */; };
-		C1D453E51AEA396E001C7111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D453E41AEA396E001C7111 /* ViewController.m */; };
+		C1D453E51AEA396E001C7111 /* ViewControllerA.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D453E41AEA396E001C7111 /* ViewControllerA.m */; };
 		C1D453E81AEA396E001C7111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D453E61AEA396E001C7111 /* Main.storyboard */; };
 		C1D453EA1AEA396E001C7111 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D453E91AEA396E001C7111 /* Images.xcassets */; };
 		C1D453ED1AEA396E001C7111 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D453EB1AEA396E001C7111 /* LaunchScreen.xib */; };
 		C1D453F91AEA396E001C7111 /* TestKeyboardBugOnIOS8_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D453F81AEA396E001C7111 /* TestKeyboardBugOnIOS8_3Tests.m */; };
+		C1D454051AEA3989001C7111 /* ViewControllerB.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D454031AEA3989001C7111 /* ViewControllerB.m */; };
+		C1D454061AEA3989001C7111 /* ViewControllerB.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1D454041AEA3989001C7111 /* ViewControllerB.xib */; };
+		C1D4540C1AEA3D53001C7111 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D4540B1AEA3D53001C7111 /* NavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,19 @@
 		C1D453DE1AEA396E001C7111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C1D453E01AEA396E001C7111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C1D453E11AEA396E001C7111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C1D453E31AEA396E001C7111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C1D453E41AEA396E001C7111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C1D453E31AEA396E001C7111 /* ViewControllerA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewControllerA.h; sourceTree = "<group>"; };
+		C1D453E41AEA396E001C7111 /* ViewControllerA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewControllerA.m; sourceTree = "<group>"; };
 		C1D453E71AEA396E001C7111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C1D453E91AEA396E001C7111 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C1D453EC1AEA396E001C7111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		C1D453F21AEA396E001C7111 /* TestKeyboardBugOnIOS8_3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestKeyboardBugOnIOS8_3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1D453F71AEA396E001C7111 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1D453F81AEA396E001C7111 /* TestKeyboardBugOnIOS8_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestKeyboardBugOnIOS8_3Tests.m; sourceTree = "<group>"; };
+		C1D454021AEA3989001C7111 /* ViewControllerB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerB.h; sourceTree = "<group>"; };
+		C1D454031AEA3989001C7111 /* ViewControllerB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerB.m; sourceTree = "<group>"; };
+		C1D454041AEA3989001C7111 /* ViewControllerB.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewControllerB.xib; sourceTree = "<group>"; };
+		C1D4540A1AEA3D53001C7111 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		C1D4540B1AEA3D53001C7111 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +91,13 @@
 			children = (
 				C1D453E01AEA396E001C7111 /* AppDelegate.h */,
 				C1D453E11AEA396E001C7111 /* AppDelegate.m */,
-				C1D453E31AEA396E001C7111 /* ViewController.h */,
-				C1D453E41AEA396E001C7111 /* ViewController.m */,
+				C1D4540A1AEA3D53001C7111 /* NavigationController.h */,
+				C1D4540B1AEA3D53001C7111 /* NavigationController.m */,
+				C1D453E31AEA396E001C7111 /* ViewControllerA.h */,
+				C1D453E41AEA396E001C7111 /* ViewControllerA.m */,
+				C1D454021AEA3989001C7111 /* ViewControllerB.h */,
+				C1D454031AEA3989001C7111 /* ViewControllerB.m */,
+				C1D454041AEA3989001C7111 /* ViewControllerB.xib */,
 				C1D453E61AEA396E001C7111 /* Main.storyboard */,
 				C1D453E91AEA396E001C7111 /* Images.xcassets */,
 				C1D453EB1AEA396E001C7111 /* LaunchScreen.xib */,
@@ -201,6 +214,7 @@
 			files = (
 				C1D453E81AEA396E001C7111 /* Main.storyboard in Resources */,
 				C1D453ED1AEA396E001C7111 /* LaunchScreen.xib in Resources */,
+				C1D454061AEA3989001C7111 /* ViewControllerB.xib in Resources */,
 				C1D453EA1AEA396E001C7111 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,8 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1D453E51AEA396E001C7111 /* ViewController.m in Sources */,
+				C1D4540C1AEA3D53001C7111 /* NavigationController.m in Sources */,
+				C1D453E51AEA396E001C7111 /* ViewControllerA.m in Sources */,
 				C1D453E21AEA396E001C7111 /* AppDelegate.m in Sources */,
+				C1D454051AEA3989001C7111 /* ViewControllerB.m in Sources */,
 				C1D453DF1AEA396E001C7111 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,8 +364,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestKeyboardBugOnIOS8_3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -358,8 +376,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TestKeyboardBugOnIOS8_3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
